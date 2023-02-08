@@ -1,9 +1,9 @@
-import Botao from "../Button"
-import Relogio from "./Relogio"
+import Botao from '../Button'
+import Relogio from './Relogio'
 import style from './cronometro.module.scss'
 import { tempoParaSegundos } from '../../common/utils/time'
-import { ITarefa } from "../../types/ITarefa"
-import { useState, useEffect } from "react"
+import { ITarefa } from '../../types/ITarefa'
+import { useState, useEffect } from 'react'
 
 interface Props {
   selecionado: ITarefa | undefined

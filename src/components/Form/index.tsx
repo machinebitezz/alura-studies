@@ -10,8 +10,8 @@ interface Props {
 }
 
 export default function Formulario({ setTarefas }: Props) {
-  const [tarefa, setTarefa] = useState("")
-  const [tempo, setTempo] = useState("00:00:00")
+  const [tarefa, setTarefa] = useState('')
+  const [tempo, setTempo] = useState('00:00:00')
 
   function addTarefa(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault()
@@ -25,8 +25,8 @@ export default function Formulario({ setTarefas }: Props) {
       }]
     })
     
-    setTarefa("")
-    setTempo("00:00:00")
+    setTarefa('')
+    setTempo('00:00:00')
   }
 
   return (

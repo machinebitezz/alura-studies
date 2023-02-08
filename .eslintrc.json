@@ -19,6 +19,7 @@
       // suppress errors for missing 'import React' in files
      "react/react-in-jsx-scope": "off",
      "semi": [2, "never"],
-     "react/jsx-curly-spacing": [2, "never"]
+     "react/jsx-curly-spacing": [2, "never"],
+     "quotes": [2, "single", { "avoidEscape": true }]
     }
 }
